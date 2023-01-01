@@ -1,0 +1,11 @@
+mtk_java_prebuilt_library {
+    jars: [
+        "com.mediatek.mdml.jar",
+    ],
+    mtk_product_line: "tablet",
+    mtk_src_path: "vendor/mediatek/proprietary/frameworks/opt/mdml",
+    mtk_type: "java_import",
+    name: "com.mediatek.mdml",
+    owner: "mtk",
+}
+
